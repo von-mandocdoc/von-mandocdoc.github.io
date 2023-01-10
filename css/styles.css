@@ -143,7 +143,7 @@ h4, .h4 {
 @media (min-width: 1200px) {
   h4, .h4 {
     padding-left: 2em;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 }
 
@@ -160,8 +160,8 @@ p {
   margin-bottom: 1rem;
 }
 
-#subCompany {
-  padding-left: 3em;
+.subCompany {
+  padding-left: 2.5em;
 }
 
 abbr[title],
@@ -580,6 +580,28 @@ progress {
 }
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
+}
+
+.list-languages {
+  padding: 0;
+  columns: 4;
+}
+
+.list-languages-item {
+  list-style: none;
+}
+
+.list-languages-item:not(:last-child) {
+  list-style: none;
+}
+
+.list-softwares {
+  padding: 0;
+  columns: 4;
+}
+
+.list-softwares-item {
+  list-style: none;
 }
 
 .initialism {
@@ -11335,6 +11357,10 @@ p.lead {
   font-size: 1.5rem;
 }
 
+.company-description {
+  padding-left: 0.15rem;
+}
+
 #sideNav {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -11367,8 +11393,8 @@ p.lead {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
+    max-width: 20rem;
+    max-height: 20rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
@@ -11406,10 +11432,6 @@ p.lead {
 }
 .social-icons .social-icon:hover {
   background-color: #0ABAB5;
-}
-
-.dev-icons {
-  font-size: 3rem;
 }
 
 section.resume-section {
