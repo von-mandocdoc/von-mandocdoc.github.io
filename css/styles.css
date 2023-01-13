@@ -11358,7 +11358,23 @@ p.lead {
 }
 
 .company-description {
-  padding-left: 0.15rem;
+  padding-left: 0rem;
+}
+
+.ga-description {
+  padding-left: 1rem;
+}
+
+.qt-description {
+  padding-left: 0rem;
+}
+
+.qt-project {
+  padding-left: 1.0rem;
+}
+
+.qt-project-description {
+  padding-left: 1.0rem;
 }
 
 #sideNav {
